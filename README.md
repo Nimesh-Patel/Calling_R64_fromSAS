@@ -57,9 +57,9 @@ Updated version of macro utl_submit_r64, drop down to R,  macro returns a macro 
     ```    ```
     ```  ;  ```
     ```    ```
-    ```  %symdel fromPy returnVar returnVarName / nowarn; * just in case;  ```
+    ```  %symdel fromr returnVar returnVarName / nowarn; * just in case not really needed;  ```
     ```    ```
-    ```  * clear the paste buffer - clipboard;  ```
+    ```  * clear the paste buffer - clipboard just in case - not really needed  ```
     ```  data _null_;  ```
     ```    call system('cmd /c "echo off | clip"');  ```
     ```  run;quit;  ```
