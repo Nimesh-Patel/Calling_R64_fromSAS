@@ -1,4 +1,5 @@
 # utl_submit_r64_v2
+Running R code inside SAS. Callin R from SAS. Interfacing R and SAS. Simple macro to call R without SAS IML.
 Updated version of macro utl_submit_r64, drop down to R,  macro returns a macro variable to parent SAS process
 
     ```  Example of new submit R macro: Evaluate a equation and send the result back to SAS in a macro variable  ```
